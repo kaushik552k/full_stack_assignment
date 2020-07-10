@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and inputs</title>
+</head>
+
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Roll: <input type="text" name="myRoll">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail" id="">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDATE">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus" id="">
+        </div>
+        <br>
+        <label for="check">Are You Eligible?</label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="check">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender" id=""> Female<input type="radio" name="myGender" id="">
+            Transgender<input type="radio" name="myGender" id="">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="60" rows="10"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="hobbies">What do you like most in</label>
+            <select name="hobbies">
+                <option value="swim">Swimming</option>
+                <option value="read" >Reading</option>
+                <option value="games">PC Games</option>
+                <option value="Football">Football</option>
+                <option value="Cricket">Cricket</option>
+                <option value="Basketball">Basketball</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="Submit" value="Submit Now">
+            <input type="Reset" value="Reset Now ">
+        </div>
+    </form>
+</body>
+
+</html>
