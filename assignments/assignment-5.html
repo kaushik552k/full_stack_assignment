@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+    <style>
+        img[usemap],map area{
+            outline: none;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: rgb(165, 236, 236);">
+    <p style="text-align: center;"><img alt="Menu Bar !!!" height="62" src="../img/navbar.jpeg" usemap="#map1" width="957"></p>
+    <map name="map">
+        <map id="map1" name="map1">
+            <area alt="" coords="10,22, 104,42," href="../index.html" shape="rect" />
+            <area alt="" coords="107,22, 261,42," href="../assignments/assignment-1.html" shape="rect" />
+            <area alt="" coords="265,22, 437,42," href="../assignments/assignment-2.html" shape="rect" />
+            <area alt="" coords="442,22, 605,42," href="../assignments/assignment-3.html" shape="rect" />
+            <area alt="" coords="608,22, 777,42," href="../assignments/assignment-4.html" shape="rect" />
+            <area alt="" coords="780,22, 947,42," href="#" shape="rect" />
+        </map>
+        <h1 style="text-align: center; color: white;">Introduction to Front-End Technologies</h1>
+        <p style="text-align: center;"><img alt="Not Found !!!" src="../img/main.jpeg" usemap="#map2"></p>
+        <map id="map2" name="map2">
+            <area alt="" coords="17,17, 234,222" href="../assignments/html.html" shape="rect" />
+            <area alt="" coords="351,115,109" href="../assignments/css.html" shape="circle" />
+            <area alt="" coords="16,252, 244,432," href="../assignments/javascript.html" shape="rect" />
+            <area alt="" coords="267,277,280,389,353,432, 428,389, 443,278, 353,246" href="../assignments/bootstrap.html" shape="poly">
+        </map>
+        <p style="text-align: center; color:red">Click on any part of the logo to know more about these technologies.
+        </p>
+</body>
+
+</html>
