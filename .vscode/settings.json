@@ -1,4 +1,5 @@
 {
     "editor.suggest.shareSuggestSelections": true,
-    "editor.quickSuggestions": true
+    "editor.quickSuggestions": true,
+    "liveServer.settings.port": 5501
 }
